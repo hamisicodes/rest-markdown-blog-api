@@ -9,12 +9,15 @@
 # }
 
 # Test Registratin
-POST http://127.0.0.1:8000/dj-rest-auth/registration/
-Content-Type: application/json
+# POST http://127.0.0.1:8000/dj-rest-auth/registration/
+# Content-Type: application/json
 
-{
-    "username":"test1",
-    "email":"test1@gmail.com",
-    "password1":"modijay72",
-    "password2":"modijay72"
-}
+# {
+#     "username":"test1",
+#     "email":"test1@gmail.com",
+#     "password1":"modijay72",
+#     "password2":"modijay72"
+# }
+
+# Test Fetch Post List
+GET  http://127.0.0.1:8000/api/posts/
